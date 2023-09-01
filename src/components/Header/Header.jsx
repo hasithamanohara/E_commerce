@@ -26,8 +26,10 @@ const Header = () => {
             me</span></h1>
 
           {/*search*/}
-          <div className="flex items-center rounded-full overflow-hidden bg-green-100 ml-2">
-            <input type="text" placeholder="Search" className="outline-none p-2 font-semibold 
+          <div className="flex items-center rounded-lg overflow-hidden bg-green-100 ml-2">
+            <input type="text" 
+                   placeholder="Search" 
+                   className=" hidden sm:inline-block outline-none p-2 font-semibold 
             text-sm bg-inherit w-[200px] ml-1" />
             <IconButton sx={{
               color: '#f2f20b',
