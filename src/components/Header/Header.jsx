@@ -61,18 +61,23 @@ const Header = () => {
         </div>
 
         {/* header right */}
-        <div>
+        <div className="p-[4px]">
           <IconButton
             sx={{
               color: "#f2f20b",
             }}
           >
-            <AddShoppingCartIcon
-              sx={{
-                color: "#0a0b0a",
-                cursor: "pointer",
-              }}
-            />
+            <div className="relative">
+              <AddShoppingCartIcon
+                sx={{
+                  color: "#0a0b0a",
+                  cursor: "pointer",
+                }}
+              />
+              <div className="absolute t-0 w-full l-0 text-[10px] bg-black p-[2px] m-0 rounded-lg ">
+                2
+              </div>
+            </div>
           </IconButton>
         </div>
       </header>

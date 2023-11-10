@@ -13,6 +13,9 @@ const AppRouter = () => {
         <Route path="/" element={<MainLayout />}>
           <Route index element={<Home />} />
         </Route>
+        <Route path="/" element={<MainLayout />}>
+          <Route index element={<Home />} />
+        </Route>
         <Route path="/" element={<UserProtected />}>
           <Route path="user" element={<User />} />
         </Route>
